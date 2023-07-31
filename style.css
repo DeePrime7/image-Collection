@@ -1,0 +1,18 @@
+*{
+    background: black;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 90%;
+    margin: 5% auto;
+}
+
+.img{
+    width: 100%;
+    border: 5px solid blue;
+    border-radius: 20px;
+}
